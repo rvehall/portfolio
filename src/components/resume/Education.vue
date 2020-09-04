@@ -3,7 +3,7 @@
     <v-col cols="12">
       <h2>Education</h2>
     </v-col>
-    <v-col cols="12" class="pa-3 d-flex flex-column" flat v-for="item in items" :key="item.title">
+    <v-col cols="12" md="6" class="pa-3 d-flex flex-column" flat v-for="item in items" :key="item.title">
       <v-card class="elevation-5 flex d-flex flex-column">
 
         <v-card-title primary-title v-text="item.what"></v-card-title>
@@ -22,6 +22,14 @@ export default {
 
   data: () => ({
     items: [
+      {
+        what: "General Studies",
+        when: "09/2017 - 05/2019",
+        where: "Glendale Communit College",
+        how:
+          "I graduatied with an A.A. in General Studies to supplement my HCI degree.",
+        url: "https://www.gccaz.edu/",
+      },
       {
         what: "Psychology | Human-Computer Interaction",
         when: "09/2009 - 05/2013",
