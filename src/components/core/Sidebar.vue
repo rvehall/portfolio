@@ -2,9 +2,9 @@
   <v-navigation-drawer v-model="drawer" :mini-variant.sync="mini" app width="300px">
     <v-list-item class="px-2">
       <v-list-item-avatar>
-        <v-img src="../../assets/logo.jpg" alt="Ra'Neith Hall"></v-img>
+        <v-img src="../../assets/logo.jpg" alt="Violet Hall"></v-img>
       </v-list-item-avatar>
-        <v-list-item-title class="title">Ra'Neith Hall</v-list-item-title>
+        <v-list-item-title class="title">Violet Hall</v-list-item-title>
       <v-btn icon @click.stop="mini = !mini" aria-label="collapse">
         <v-icon>mdi-chevron-left</v-icon>
       </v-btn>
