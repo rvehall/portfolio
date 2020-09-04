@@ -1,9 +1,14 @@
 <template>
   <v-container>
     <Introduction />
-    <h1>Home</h1>
-    <UXPortfolio quick="true"/>
+    <h1>Portfolio</h1>
+    <UXPortfolio />
+    <SoftwarePortfolio />
+    <h2>Resume</h2>
     <Skills />
+    <Work />
+    <Education />
+    <Volunteer />
     <Awards />
   </v-container>
 </template>
@@ -14,6 +19,10 @@ import Introduction from "@/components/about/Introduction";
 import Awards from "@/components/about/Awards";
 import Skills from "@/components/about/Skills";
 import UXPortfolio from "@/components/portfolio/UXPortfolio";
+import SoftwarePortfolio from "@/components/portfolio/SoftwarePortfolio";
+import Education from "@/components/resume/Education";
+import Volunteer from "@/components/resume/Volunteer";
+import Work from "@/components/resume/Work";
 
 export default {
   name: "Home",
@@ -21,7 +30,11 @@ export default {
     Introduction,
     Awards,
     Skills,
-    UXPortfolio
+    UXPortfolio,
+    SoftwarePortfolio,
+    Education,
+    Volunteer,
+    Work
   },
 };
 </script>
