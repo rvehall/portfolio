@@ -1,36 +1,40 @@
 <template>
   <v-app>
-    <Sidebar />
     <v-main>
       <router-view />
+      <v-btn
+        v-scroll="onScroll"
+        v-show="fab"
+        fab
+        dark
+        fixed
+        bottom
+        right
+        color="gred darken-2"
+        @click="toTop"
+        aria-label="To Top"
+      >
+        <v-icon dark>mdi-arrow-up-bold-outline</v-icon>
+      </v-btn>
     </v-main>
     <Footer />
-    <v-btn
-      v-scroll="onScroll"
-      v-show="fab"
-      fab
-      dark
-      fixed
-      bottom
-      right
-      color="primary"
-      @click="toTop"
-    >
-      <v-icon dark>mdi-arrow-up-bold-outline</v-icon>
-    </v-btn>
   </v-app>
 </template>
 
 <script>
-import Sidebar from "@/components/core/Sidebar";
 import Footer from "@/components/core/Footer";
 
 export default {
   name: "App",
 
   components: {
-    Sidebar,
     Footer,
+  },
+  data() {
+    return {
+      scrolled: false,
+      fab: false,
+    };
   },
   methods: {
     handleScroll() {
