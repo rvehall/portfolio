@@ -12,20 +12,6 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/portfolio',
-    name: 'Portfolio',
-    component: function () {
-      return import('../views/Portfolio.vue')
-    },
-  },
-  {
-    path: '/resume',
-    name: 'Resume',
-    component: function () {
-      return import('../views/Resume.vue')
-    }
-  },
-  {
     path: '*',
     name: 'Error',
     component: Error
