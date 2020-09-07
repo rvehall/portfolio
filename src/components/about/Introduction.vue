@@ -6,10 +6,8 @@
       </v-avatar>
     </v-col>
     <v-col
-      cols="12"
-       v-show="!portfolio"
-    >Hi! I am Violet Hall and I work as UX and Front End Developer. My passion is creating a user centered user experience.</v-col>
-    <v-col cols="12" v-show="!resume">
+      cols="12">Hi! I am Violet Hall and I work as UX and Front End Developer. My passion is creating a user centered user experience.</v-col>
+    <v-col cols="12">
       “User experience encompasses all aspects of the end-user’s interaction with the company, its services, and its products.”
       <br />– Don Norman, Cognitive Scientist & User Experience Architect
     </v-col>
