@@ -24,15 +24,15 @@ export default {
     items: [
       {
         what: "UI/UX Developer",
-        when: "02/2019 - Present",
+        when: "07/2019 - Present",
         where: "Attainia",
         how:
-          "I worked with users, the business, and engineering to design and develop a web application intended to help those in the medical capital equipment planning industry to plan their projects. (B2B)",
+          "I work with users, the business, and engineering to design and develop a web application intended to help those in the medical capital equipment planning industry to plan their projects. (B2B)",
         url: "http://attainia.com/",
       },
       {
         what: "Software Engineer",
-        when: "02/2019 - Present",
+        when: "02/2019 - 06/2019",
         where: "Attainia",
         how:
           "I worked with users, the business, and product to develop and maintain a web application intended to help those in the medical capital equipment planning industry to plan their projects. (B2B)",
@@ -51,7 +51,7 @@ export default {
         when: "09/2015-06/2016",
         where: "South Carolina Department of Employment and Workforce",
         how:
-          "I worked with the business and other developers to maintain applications designed to provide stated and federally funded benefits. (G2C and G2B)",
+          "I worked with the business and other developers to maintain applications designed to provide state and federally funded benefits. (G2C and G2B)",
         url: "https://dss.sc.gov/",
       },
       {
