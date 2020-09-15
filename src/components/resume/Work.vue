@@ -64,7 +64,7 @@ export default {
       },
       {
         what: "Software Engineer | UX Engineer",
-        when: "03/2012-08/2016",
+        when: "03/2012-08/2013",
         where: "The Web Jar, LLC",
         how:
           "I worked with the business to design, build, and maintain web applications for small businesses. (B2B)",

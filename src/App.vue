@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <TopNav/>
     <v-main>
       <router-view />
       <v-btn
@@ -22,6 +23,7 @@
 </template>
 
 <script>
+import TopNav from "@/components/core/TopNav";
 import Footer from "@/components/core/Footer";
 
 export default {
@@ -29,6 +31,7 @@ export default {
 
   components: {
     Footer,
+    TopNav,
   },
   data() {
     return {
