@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <Introduction />
-    <h1>Portfolio</h1>
+    <Introduction id="intro" />
+    <h1 id="portfolio">Portfolio</h1>
     <UXPortfolio />
     <SoftwarePortfolio />
-    <h2>Resume</h2>
+    <h2 id="resume">Resume</h2>
     <Skills />
     <Work />
     <Education />
