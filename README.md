@@ -1,4 +1,4 @@
-# pixelpixie
+# Portfolio
 
 ## Project setup
 ```
@@ -15,6 +15,5 @@ yarn serve
 yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# rvehall
+## Technology
+The project uses Vue and Vuetify and is deployed to [gh-pages](https://rvehall.github.io/portfolio/) (deployed using a bash script).
