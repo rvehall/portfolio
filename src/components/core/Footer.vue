@@ -24,18 +24,6 @@ export default {
         external: false,
       },
       {
-        text: "Portfolio",
-        icon: "mdi-image",
-        url: "/portfolio",
-        external: false,
-      },
-      {
-        text: "Resume",
-        icon: "mdi-file-outline",
-        url: "/resume",
-        external: false,
-      },
-      {
         text: "GitHub",
         icon: "mdi-github",
         url: "http://www.github.com/rvehall",
