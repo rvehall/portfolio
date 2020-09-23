@@ -1,3 +1,7 @@
+git add .
+git commit -m "Deploy"
+git push origin master
+
 yarn build
 
 cd dist

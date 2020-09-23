@@ -3,7 +3,7 @@
     <v-col cols="12">
       <h2>Volunteer</h2>
     </v-col>
-    <v-col cols="12" class="pa-3 d-flex flex-column" flat v-for="item in items" :key="item.title">
+    <v-col cols="12" md="6" class="pa-3 d-flex flex-column" flat v-for="item in items" :key="item.title">
       <v-card class="elevation-5 flex d-flex flex-column">
 
         <v-card-title primary-title v-text="item.what"></v-card-title>
@@ -23,12 +23,20 @@ export default {
   data: () => ({
     items: [
       {
-        what: "Instructor | Planner | Developer | Designer | Assistant",
-        when: "01/202020 - Present",
+        what: "Volunteer",
+        when: "01/2020 - Present",
         where: "Woment Who Code",
         how:
           "I work with the Women Who Code - Phoenix Director to develop and plan MeetUps for the group. This can include leading a class, setting up a project for the group to work on, and/or supporting the Director or another Software Engineer during a class.",
         url: "https://www.womenwhocode.com/",
+      },
+      {
+        what: "Web Presence Manager",
+        when: "08/2019 - Present",
+        where: "Silver Wind Ocarina",
+        how:
+          "I maintain Silver Wind Ocarina's online presence (Facebook, Twitter, YouTube, Instagram, Reddit, and website).",
+        url: "https://silverwindocarina.com",
       },
     ],
   }),
